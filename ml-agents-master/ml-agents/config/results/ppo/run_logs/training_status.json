@@ -1,0 +1,30 @@
+{
+    "LineCreator": {
+        "checkpoints": [
+            {
+                "steps": 72458,
+                "file_path": "results\\ppo\\LineCreator\\LineCreator-72458.onnx",
+                "reward": null,
+                "creation_time": 1608413295.160238
+            },
+            {
+                "steps": 184574,
+                "file_path": "results\\ppo\\LineCreator\\LineCreator-184574.onnx",
+                "reward": 60.67666227287717,
+                "creation_time": 1608415546.4447372
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 184574,
+            "file_path": "results\\ppo\\LineCreator.onnx",
+            "reward": 60.67666227287717,
+            "creation_time": 1608415546.4447372
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0",
+        "tensorflow_version": "2.3.1"
+    }
+}
