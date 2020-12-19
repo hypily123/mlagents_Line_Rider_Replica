@@ -36,24 +36,28 @@ For each episode:
 
 **Project Introduction:**
 
-**	**There are two most important files in the project:
+There are two most important files in the project:
 
 
 
-1. ml-agents-master/mlagents/config/config.yaml:
-
-    The config file to the training. It can change all hyperparameters of the training.
-
-2. Line Rider Replica/Assets/Scripts/PlayerAgents.cs
-
-    The script that contains the main training logic. For example, how the reward is calculated, how one episode runs, how the goal generates. For more details, please read the comments in the file.
+1. config.yaml:<br>
+The config file to the training. It can change all hyperparameters of the training.
+2. PlayerAgents.cs:<br>
+The script that contains the main training logic. For example, how the reward is calculated, how one episode runs, how the goal generates. For more details, please read the comments in the file.<br>
     *Important functions:*
-`public override void OnEpisodeBegin()`
+```
+public override void OnEpisodeBegin()
+```
 &emsp; &emsp; Initialize the training condition at the start of each episode.
-`public override void CollectObservations(VectorSensor sensor)`
-&emsp; &emsp; Collect the observation data. Use sensor.AddObservation() to add what is       needed to observe. The fewer observations, the better.
-`public override void OnActionReceived(float[] vectorAction)`
+```
+public override void CollectObservations(VectorSensor sensor)
+```
+&emsp; &emsp; Collect the observation data. Use sensor.AddObservation() to add what is needed to observe. The fewer observations, the better.
+```
+public override void OnActionReceived(float[] vectorAction)
+```
 &emsp; &emsp; This is the core function of the agent. It decides how the agent could get rewards.according to each action. Input “vectorAction” is a random float array, which is considered as the actions of the agent. Use setReward() to give the agent a reward. Use EndEpisode() to jump out of the episode. This function will run every frame, which means it will run 60 times per second.
 
-&emsp; &emsp; About rewards:
+About rewards:
+<br>
 &emsp; &emsp; As mentioned in training flow, we have two steps in each episode: draw and    run. Hence we have two &emsp; &emsp; types of rewards. The point which is drawing, we call it “agent”. The closer the agent to the goal &emsp; &emsp; point, the higher reward it will get. Then the bike runs. The closer the bike to the goal point, the higher &emsp; &emsp; reward it will get. The agent’s rewards have a lower weight than the bike’s.
