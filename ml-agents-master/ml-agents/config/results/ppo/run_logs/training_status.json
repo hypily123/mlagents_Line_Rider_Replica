@@ -24,13 +24,19 @@
                 "file_path": "results\\ppo\\LineCreator\\LineCreator-502726.onnx",
                 "reward": 68.01040301936688,
                 "creation_time": 1608427882.235726
+            },
+            {
+                "steps": 506110,
+                "file_path": "results\\ppo\\LineCreator\\LineCreator-506110.onnx",
+                "reward": 65.5259123802185,
+                "creation_time": 1608432838.9896598
             }
         ],
         "final_checkpoint": {
-            "steps": 502726,
+            "steps": 506110,
             "file_path": "results\\ppo\\LineCreator.onnx",
-            "reward": 68.01040301936688,
-            "creation_time": 1608427882.235726
+            "reward": 65.5259123802185,
+            "creation_time": 1608432838.9896598
         }
     },
     "metadata": {
