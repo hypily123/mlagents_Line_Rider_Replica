@@ -18,7 +18,7 @@ ml-agents: [https://github.com/Unity-Technologies/ml-agents](https://github.com/
 
 ![rUcarD.png](https://s3.ax1x.com/2020/12/20/rUcarD.png)
 
-Then press the start button in Unity. It will start to learn.
+Double click on MainLevel scene. Then press the start button in Unity. It will start to learn.
 
 6.If the learning progress ends, the model will be saved in the “models” folder. Our trained model is in the folder and named as “ppo”. Feel free to use it as the model to run the game.
 
