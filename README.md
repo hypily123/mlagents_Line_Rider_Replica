@@ -67,3 +67,5 @@ About rewards:
 
 [![rUhhZT.png](https://s3.ax1x.com/2020/12/20/rUhhZT.png)](https://imgchr.com/i/rUhhZT)
 [![rUhoi4.png](https://s3.ax1x.com/2020/12/20/rUhoi4.png)](https://imgchr.com/i/rUhoi4)
+<br>
+Please use this project to train your own agent. It is really hard to change the main learning function. Each parameter fix may lead the learning to convergence too much. Adjust your parameters carefully. ^ ^
