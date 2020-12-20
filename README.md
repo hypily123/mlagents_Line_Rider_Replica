@@ -8,7 +8,7 @@ ml-agents: [https://github.com/Unity-Technologies/ml-agents](https://github.com/
 
 **Instruction:**
 1. Unity ml-agents needs both Unity and Python. Install Unity and Python3.
-2. Be aware that the version of the python package and the version of the unity package should be the same. Install ml agents package into python. Open the terminal and type in 
+2. Be aware that the version of the python package and the version of the unity package should be the same. Intall ML-Agents package in Unity, using package management. Install ml agents package into python. Open the terminal and type in 
 `pip3 install mlagents==0.16.1`
 3. Download the “ml-agents-master” folder in the repo and cd to the path
 4. Cd to the “ml-agents” folder
