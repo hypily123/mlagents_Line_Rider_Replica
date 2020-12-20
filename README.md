@@ -60,4 +60,10 @@ public override void OnActionReceived(float[] vectorAction)
 
 About rewards:
 <br>
-&emsp; &emsp; As mentioned in training flow, we have two steps in each episode: draw and    run. Hence we have two &emsp; &emsp; types of rewards. The point which is drawing, we call it “agent”. The closer the agent to the goal &emsp; &emsp; point, the higher reward it will get. Then the bike runs. The closer the bike to the goal point, the higher &emsp; &emsp; reward it will get. The agent’s rewards have a lower weight than the bike’s.
+&emsp; &emsp; As mentioned in training flow, we have two steps in each episode: draw and run. Hence we have two types of rewards. The point which is drawing, we call it “agent”. The closer the agent to the goal point, the higher reward it will get. Then the bike runs. The closer the bike to the goal point, the higher reward it will get. The agent’s rewards have a lower weight than the bike’s.
+
+**Our Result:**
+
+
+[![rUhhZT.png](https://s3.ax1x.com/2020/12/20/rUhhZT.png)](https://imgchr.com/i/rUhhZT)
+[![rUhoi4.png](https://s3.ax1x.com/2020/12/20/rUhoi4.png)](https://imgchr.com/i/rUhoi4)
