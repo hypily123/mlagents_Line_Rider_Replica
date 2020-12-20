@@ -2,23 +2,35 @@
     "LineCreator": {
         "checkpoints": [
             {
-                "steps": 72458,
-                "file_path": "results\\ppo\\LineCreator\\LineCreator-72458.onnx",
-                "reward": null,
-                "creation_time": 1608413295.160238
+                "steps": 225817,
+                "file_path": "results\\ppo\\LineCreator\\LineCreator-225817.onnx",
+                "reward": 32.40796418109183,
+                "creation_time": 1608423048.0851822
             },
             {
-                "steps": 184574,
-                "file_path": "results\\ppo\\LineCreator\\LineCreator-184574.onnx",
-                "reward": 60.67666227287717,
-                "creation_time": 1608415546.4447372
+                "steps": 493652,
+                "file_path": "results\\ppo\\LineCreator\\LineCreator-493652.onnx",
+                "reward": 68.74251713960066,
+                "creation_time": 1608424946.183378
+            },
+            {
+                "steps": 499953,
+                "file_path": "results\\ppo\\LineCreator\\LineCreator-499953.onnx",
+                "reward": 66.88739828867455,
+                "creation_time": 1608427753.1275494
+            },
+            {
+                "steps": 502726,
+                "file_path": "results\\ppo\\LineCreator\\LineCreator-502726.onnx",
+                "reward": 68.01040301936688,
+                "creation_time": 1608427882.235726
             }
         ],
         "final_checkpoint": {
-            "steps": 184574,
+            "steps": 502726,
             "file_path": "results\\ppo\\LineCreator.onnx",
-            "reward": 60.67666227287717,
-            "creation_time": 1608415546.4447372
+            "reward": 68.01040301936688,
+            "creation_time": 1608427882.235726
         }
     },
     "metadata": {
